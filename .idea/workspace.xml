@@ -4,17 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d5a0059-cd73-48ae-9402-492dec4cde80" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/PythonProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DockerFIleZone/airflow/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DockerFIleZone/airflow/hello_airflow_dag.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DockerFIleZone/airflow/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DockerFIleZone/airflow/ml_airflow_dag.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    <list default="true" id="9d5a0059-cd73-48ae-9402-492dec4cde80" name="Changes" comment="jenkins 테스트">
+      <change afterPath="$PROJECT_DIR$/DockerFIleZone/mlflow/dataprocessing_todo.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DockerFIleZone/mlflow/dataset_preprocessing.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DockerFIleZone/mlflow/mlflow.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DockerFIleZone/mlflow/train.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,54 +21,79 @@
       <list>
         <option value="Dockerfile" />
         <option value="Python Script" />
+        <option value="Jupyter Notebook" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;dkaskgkdua&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/dkaskgkdua/MLOPS.git&quot;,
+    &quot;accountId&quot;: &quot;90c03fbe-dd9c-4e55-b47a-90ed5a8a1627&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2sXIpNmCZyqFH4EjMjkLzQ8pWLb" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Docker.DockerFIleZone/Dockerfile.executor": "Run",
-    "Docker.airflow.executor": "Run",
-    "Docker.airflow/Dockerfile.executor": "Run",
-    "Docker.airflow_run.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/dkask/PycharmProjects/PythonProject/DockerFIleZone",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Docker.DockerFIleZone/Dockerfile.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.airflow.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.airflow/Dockerfile.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.airflow_run.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.jenkins: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/dkask/PycharmProjects/PythonProject/DockerFIleZone&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\dkask\PycharmProjects\PythonProject\DockerFIleZone" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\dkask\PycharmProjects\PythonProject\DockerFIleZone\mlflow" />
       <recent name="C:\Users\dkask\PycharmProjects\PythonProject\DockerFIleZone\airflow" />
     </key>
   </component>
-  <component name="RunManager" selected="Docker.airflow_run">
+  <component name="RunManager" selected="Docker.jenkins: Compose Deployment">
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="docker-deploy" factoryName="docker-image" temporary="true">
-      <deployment type="docker-image" />
+      <deployment type="docker-image">
+        <settings />
+      </deployment>
       <method v="2" />
     </configuration>
     <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
-      <deployment type="dockerfile" />
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
       <method v="2" />
     </configuration>
     <configuration name="airflow/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
@@ -112,12 +132,22 @@
       </deployment>
       <method v="2" />
     </configuration>
+    <configuration name="jenkins: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="DockerFIleZone/jenkins/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <list>
+      <item itemvalue="Docker.jenkins: Compose Deployment" />
       <item itemvalue="Docker.airflow_run" />
       <item itemvalue="Docker.airflow/Dockerfile" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.jenkins: Compose Deployment" />
         <item itemvalue="Docker.airflow_run" />
         <item itemvalue="Docker.airflow/Dockerfile" />
       </list>
@@ -126,8 +156,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-PY-243.23654.177" />
-        <option value="bundled-python-sdk-91d3a02ef49d-43b77aa2d136-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.23654.177" />
+        <option value="bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-PY-243.24978.54" />
+        <option value="bundled-python-sdk-91e3b7efe1d4-466328ff949b-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.24978.54" />
       </set>
     </attachedChunks>
   </component>
@@ -139,12 +169,36 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1738595674330</updated>
-      <workItem from="1738595675407" duration="4870000" />
+      <workItem from="1738595675407" duration="5212000" />
+      <workItem from="1738997509565" duration="2200000" />
+      <workItem from="1739682366366" duration="4007000" />
     </task>
+    <task id="LOCAL-00001" summary="airflow 테스트">
+      <option name="closed" value="true" />
+      <created>1738601891450</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1738601891450</updated>
+    </task>
+    <task id="LOCAL-00002" summary="jenkins 테스트">
+      <option name="closed" value="true" />
+      <created>1739682421423</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1739682421423</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="airflow 테스트" />
+    <MESSAGE value="jenkins 테스트" />
+    <option name="LAST_COMMIT_MESSAGE" value="jenkins 테스트" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
